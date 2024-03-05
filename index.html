@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vishal Bhardwaj || Front-End Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="x-icon" href="images/icon.png">
+    <script src="https://kit.fontawesome.com/499e2dbf32.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.jpeg " class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+
+            </nav>
+
+            <div class="header-text">
+                <h1>Hi, I'm <span>Mayank Mishra.</span></h1>
+                <p>Web Developer.</p>
+                <!-- <p>This is My Portfolio.</p> -->
+
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------ABOUT ---------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col1">
+                    <img src="images/mayank.jpg">
+                </div>
+                <div class="about-col2">
+                    <h1 class="Subtitle"> ABOUT ME </h1>
+                    <p>
+                        I'm Mayank Mishra, a seasoned web developer currently based in Noida, Uttar Pradesh. Holding a Bachelor of Technology in Computer Science and Engineering (CSE) from AKTU Lucknow, I bring over four years of extensive experience in the field.
+                        <br><br> With a solid background in web development, I have successfully completed over 50 projects, demonstrating my proficiency in a variety of technologies and frameworks. My expertise encompasses:
+                        <br><br>
+                        <strong>PHP:</strong> Proficient in both CodeIgniter and Laravel frameworks, I leverage the power of PHP to build robust and scalable web applications tailored to your requirements.
+                        <br>
+                        <strong>Frontend Technologies:</strong> Mastery of HTML, CSS, JavaScript, and jQuery enables me to create visually stunning and user-friendly interfaces that engage and captivate your audience.
+                        <br>
+                        <strong>AJAX:</strong> By utilizing Asynchronous JavaScript and XML (AJAX), I enhance the responsiveness and interactivity of your web applications, delivering seamless user experiences.
+                        <br>
+                        <strong>Node.js:</strong> With Node.js, I harness the power of JavaScript to develop high-performance, real-time applications that scale effortlessly to meet growing demands.
+                        <br>
+                        <strong>Databases:</strong> Whether it's relational databases like MySQL or NoSQL databases like MongoDB, I possess the expertise to design efficient data storage solutions that drive your applications forward.
+                        <br><br> I am passionate about turning ideas into reality and thrive on delivering innovative solutions that exceed expectations. Building long-lasting partnerships with clients based on trust, transparency, and mutual success
+                        is at the core of my values.
+                        <br><br> Thank you for considering me for your next project. With a proven track record of completing over 50 projects, I am confident in my ability to meet and exceed your web development needs. Let's collaborate and bring your
+                        vision to life!
+                        <br><br>
+                        <strong>My field of specialization is Back-End Web Development.</strong> Having successfully delivered 50+ projects, I am ready to tackle new challenges with the same level of enthusiasm and dedication.
+                    </p>
+
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                        <p class="tab-links" onclick="opentab('Skills')">Skills</p>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>AKTU Lucknow</span> <br> Bachelor of Technology<br> Computer Science and Engineering <br>2015 - 2019</li>
+                            <li><span>Vidhya Niketan Inter Collage</span> <br>Higher Secondary School<br> PCM<br> 2014-2015</li>
+                            <li><span>Vidhya Niketan Inter Collage</span> <br> High School <br> 2012-2013</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Skills">
+                        <ul>
+                            <li>PHP (CodeIgniter, Laravel)</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript (including jQuery)</li>
+                            <li>AJAX</li>
+                            <li>Node.js</li>
+                            <li>MySQL</li>
+                            <li>MongoDB</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="Experience">
+                        <ul>
+                            <li>
+                                <span>Junior Web Developer</span>
+                                <br>
+                                <strong>Company:</strong> SmartWebEasy Consultancy
+                                <br>
+                                <strong>Responsibilities:</strong> During this job, I worked on technologies like PHP and CodeIgniter and and JavaScript and jquery .
+                            </li>
+                            <li>
+                                <span>Web Developer</span>
+                                <br>
+                                <strong>Company:</strong> BFC Technologies
+                                <br>
+                                <strong>Responsibilities:</strong> During this job, I worked on technologies like PHP and CodeIgniter and Laravel and JavaScript and jquery and Rest API, Contributed to many organizations through this event Engaged in a
+                                community and experimented with a lot of new technologies..
+                            </li>
+                            <li>
+                                <span>Web Developer</span>
+                                <br>
+                                <strong>Company:</strong> Myitronline Global Private Limited
+                                <br>
+                                <strong>Responsibilities:</strong> During this job, I worked on technologies like PHP and CodeIgniter and Laravel and JavaScript and jquery and Rest API , Payment Getway , Node Js, Contributed to many organizations through
+                                this event Engaged in a community and experimented with a lot of new technologies..
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+                <a href="MAYANK MISHRA resume.pdf" class="btn1">Download CV</a>
+
+
+            </div>
+        </div>
+    </div>
+
+    <!-- -----------Projects------------- -->
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title"> MY PROJECTS </h1>
+            <div class="Work-list">
+                <div class="Work">
+                    <img src="images/CWIMG1.jpg">
+                    <div class="layer">
+                        <h3>BookStore Website</h3>
+                        <p>The Bookstore Website project aims to create an online platform where users can browse, search, and purchase books conveniently. The website will feature a user-friendly interface, secure payment options, and a comprehensive catalog
+                            of books across various genres.</p>
+                        <a href="https://store.bfcpublications.com/"> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="Work">
+                    <img src="images/CWIMG2.jpeg">
+                    <div class="layer">
+                        <h3>Paperprint Package development</h3>
+                        <p>The Paperprint Package Development Website is aimed at facilitating the creation and customization of paper product packages for businesses and individuals. It serves as a platform where users can easily design, customize, and
+                            order various types of paper products, such as business cards, brochures, flyers, and posters. The website offers a user-friendly interface with robust features to streamline the package development process, ensuring convenience
+                            and efficiency for both customers and administrators.</p>
+                        <a href="https://bfcpublications.com/ebook-publishing-packages"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="Work">
+                    <img src="images/CWIMG3.png">
+                    <div class="layer">
+                        <h3>Create Company Website</h3>
+                        <p>The Company Website Development project aims to create a modern and professional online presence. The website will serve as a central hub for information about the company, its products/services, and its mission, while also providing
+                            an avenue for engaging with customers, generating leads, and establishing credibility in the industry. The primary goal is to design and develop a user-friendly, responsive website that effectively communicates the company's
+                            brand identity and values, while also showcasing its offerings and encouraging user interaction.</p>
+                        <a href="https://bfcsofttech.com/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="Work">
+                    <img src="images/Calci.png">
+                    <div class="layer">
+                        <h3>Vaishnojewellers Ecom</h3>
+                        <p>Vaishno Jewellers E-commerce Website project aims to create an online platform for Vaishno Jewellers to showcase and sell their exquisite collection of jewelry to customers worldwide. The website will provide a seamless and secure
+                            shopping experience, allowing users to browse through various jewelry categories, select products, make purchases, and track orders conveniently. The primary objective is to establish an attractive and user-friendly e-commerce
+                            platform that reflects the brand's elegance, craftsmanship, and commitment to quality while driving sales and fostering customer satisfaction.</p>
+                        <a href="https://vaishnojewellers.com/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="Work">
+                    <img src="images/Calci.png">
+                    <div class="layer">
+                        <h3>Vaishnojewellers CRM E-com Manage</h3>
+                        <p>The Vaishno Jewellers CRM E-commerce Management System project aims to develop a comprehensive Customer Relationship Management (CRM) platform integrated with an e-commerce solution to streamline operations, enhance customer engagement,
+                            and drive sales for Vaishno Jewellers. </p>
+                        <a href="https://admin.vaishnojewellers.com/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="Work">
+                    <img src="images/Calci.png">
+                    <div class="layer">
+                        <h3>Herbveda E-com</h3>
+                        <p>Ayurvedic Medicines & Herbal Food Supplements Pure Herbal Natural Products to The Mankind (in Capsule form)… Manufacturers of Quality Food Supplements and Herbal Medicines. Some of our products have also been tested approved and
+                            recommended by German doctors in Germany. </p>
+                        <a href="https://herbveda.com/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="Work">
+                    <img src="images/Calci.png">
+                    <div class="layer">
+                        <h3>Apnokaca Blog Site Development</h3>
+                        <p>The Apnokaca Blog Site Development project aims to create a dynamic and engaging platform for sharing insightful content, stories, and experiences related to various topics of interest. The website will serve as a hub for writers,
+                            bloggers, and enthusiasts to express their thoughts, opinions, and expertise on a wide range of subjects </p>
+                        <a href="https://www.apnokaca.com/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="Work">
+                    <img src="images/Calci.png">
+                    <div class="layer">
+                        <h3>myitronlinenews Blog Site Development</h3>
+                        <p>The myitronlinenews Blog Site Development project aims to create a dynamic and engaging platform for sharing insightful content, stories, and experiences related to various topics of interest. The website will serve as a hub for
+                            writers, bloggers, and enthusiasts to express their thoughts, opinions, and expertise on a wide range of subjects </p>
+                        <a href="https://www.myitronlinenews.com/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="Work">
+                    <img src="images/Calci.png">
+                    <div class="layer">
+                        <h3>Myitronline Service provider Website Manatance.</h3>
+                        <p>The Myitronline Service Provider Website Maintenance project involves ensuring the smooth operation, security, and functionality of the Myitronline service provider website. This website serves as a platform for connecting service
+                            providers with potential clients seeking various services.</p>
+                        <a href="https://myitronline.com/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="Work">
+                    <img src="images/Calci.png">
+                    <div class="layer">
+                        <h3>Myitronline Service provider CRM Website Development.</h3>
+                        <p>The Myitronline Service Provider CRM (Customer Relationship Management) Website Development project aims to create a comprehensive online platform for managing service provider operations, client interactions, and business processes
+                            efficiently. </p>
+                        <a href="https://admin.myitronline.com/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="Work">
+                    <img src="images/Calci.png">
+                    <div class="layer">
+                        <h3>Myitronline version 2 Service provider CRM Website Development.</h3>
+                        <p>The Myitronline Service Provider CRM (Customer Relationship Management) Website Development project aims to create a comprehensive online platform for managing service provider operations, client interactions, and business processes
+                            efficiently. </p>
+                        <a href="https://admin1.myitronline.com/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="Work">
+                    <img src="images/Calci.png">
+                    <div class="layer">
+                        <h3>brandbuddy Service provider Website Manatance.</h3>
+                        <p>They try to cover all the possible categories which play a very important role in any business promotion. With Brandbuddy business owners can make their own customized social media, festivals, and many more kinds of posts and achieve
+                            their desired growth for their business.</p>
+                        <a href="https://brandbuddy.in/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="Work">
+                    <img src="images/Calci.png">
+                    <div class="layer">
+                        <h3>Myitronline version 2 Service provider Website Development.(Inprogress)</h3>
+                        <p>The Myitronline Service Provider Website Development project aims to create a comprehensive online platform for managing service provider operations, client interactions, and business processes efficiently. </p>
+                        <a href="https://www1.myitronline.com/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <h3>And many more</h3>
+            </div>
+            <!-- <a href="#" class="btn">See More</a> -->
+        </div>
+    </div>
+
+    <!-- --------Contact ------------ -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle">CONTACT ME</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>mayankm738@gmail.com</p>
+                    <p> <i class="fa-solid fa-mobile-screen-button"></i>+91-9565187138</p>
+                    <div class="icons">
+                        <a href="https://www.linkedin.com/in/mayank-mishra-89927b236/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/mayankm738"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://twitter.com/Pandatvishu"><i class="fa-brands fa-square-twitter"></i></a>
+                        <a href="https://www.instagram.com/mayank_mishra_1998/"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="MAYANK MISHRA resume.pdf" class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p> Copyright Ⓒ Mayank. <br> THANK YOU </p>
+        </div>
+    </div>
+
+
+
+
+    <!-- -------java script ----- -->
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu() {
+            sidemenu.style.right = "-120px";
+        }
+    </script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwNsnjuFuI1hwc2MojKFjrMu2DA2KczpYahr3rRVhRN9UkR_zdhbe7DXERcOfCehtOBmw/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, {
+                    method: 'POST',
+                    body: new FormData(form)
+                })
+                .then(response => {
+                    msg.innerHTML = "Message sent Sucessfully"
+                    setTimeout(function() {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+</body>
+
+</html>
